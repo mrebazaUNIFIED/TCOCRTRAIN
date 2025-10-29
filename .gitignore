@@ -82,8 +82,6 @@ notebooks/
 .ipynb_checkpoints/
 data/extracted/
 data/processed/
-datasets/
-__data__/
 *.tar
 *.tgz
 *.zip
