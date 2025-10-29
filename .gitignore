@@ -49,7 +49,6 @@ __pycache__/
 local_settings.py
 
 # --- Archivos de migraciones (opcional, si no quieres subirlas) ---
-# **Descomenta las siguientes líneas si NO quieres subir migraciones**
 # */migrations/
 # !*/migrations/__init__.py
 
@@ -80,8 +79,15 @@ output/
 runs/
 notebooks/
 .ipynb_checkpoints/
-data/extracted/
+
+# --- Carpetas de datos ---
+# Ignorar todo dentro de data excepto /data/raw
+data/*
+!data/raw/
 data/processed/
+data/extracted/
+
+# --- Archivos comprimidos ---
 *.tar
 *.tgz
 *.zip
@@ -90,5 +96,3 @@ data/processed/
 # --- Archivos de Docker ---
 .dockerignore
 docker-compose.override.yml
-
-# --- Archivos de Node/NPM (si usas
