@@ -1,0 +1,96 @@
+# --- Archivos y carpetas del sistema ---
+*.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos virtuales ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Archivos de entorno y configuración privada ---
+.env
+*.env
+.env.local
+.env.*
+
+# --- Archivos de logs ---
+*.log
+logs/
+debug.log
+
+# --- Archivos temporales ---
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+tmp/
+temp/
+cache/
+*.bak
+*.swp
+*.swo
+
+# --- Django ---
+*.mo
+*.pot
+db.sqlite3
+media/
+staticfiles/
+static/
+__pycache__/
+local_settings.py
+
+# --- Archivos de migraciones (opcional, si no quieres subirlas) ---
+# **Descomenta las siguientes líneas si NO quieres subir migraciones**
+# */migrations/
+# !*/migrations/__init__.py
+
+# --- IDEs y editores ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Archivos de compilación ---
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# --- Modelos grandes o checkpoints ---
+models/
+checkpoints/
+weights/
+*.ckpt
+*.pt
+*.bin
+*.h5
+
+# --- Archivos específicos del entrenamiento ---
+output/
+runs/
+notebooks/
+.ipynb_checkpoints/
+data/extracted/
+data/processed/
+datasets/
+__data__/
+*.tar
+*.tgz
+*.zip
+*.rar
+
+# --- Archivos de Docker ---
+.dockerignore
+docker-compose.override.yml
+
+# --- Archivos de Node/NPM (si usas
